@@ -1,11 +1,9 @@
 package com.example.template
 
-import android.graphics.drawable.shapes.Shape
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -13,7 +11,6 @@ import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -60,12 +57,12 @@ fun ExampleList(exampleListViewModel: ExampleListViewModel = viewModel()) {
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
                     ExampleButton {
-                        Text(text = "Add new",
+                        Text(text = "Add new row",
                             fontSize = 20.sp,
                             modifier = Modifier.clickable { exampleListViewModel.addExampleRow() })
                     }
                     ExampleButton {
-                        Text(text = "Delete all",
+                        Text(text = "Delete all rows",
                             fontSize = 20.sp,
                             modifier = Modifier.clickable { exampleListViewModel.deleteAll() })
                     }
