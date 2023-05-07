@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.heartrate_monitor'
+    namespace 'com.example.template'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.heartrate_monitor"
+        applicationId "com.example.template"
         minSdk 31
         targetSdk 33
         versionCode 1

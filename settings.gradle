@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "heartrate-monitor"
+rootProject.name = "template"
 include ':app'

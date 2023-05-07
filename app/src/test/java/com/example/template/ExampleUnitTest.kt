@@ -1,4 +1,4 @@
-package com.example.heartrate_monitor
+package com.example.template
 
 import org.junit.Test
 

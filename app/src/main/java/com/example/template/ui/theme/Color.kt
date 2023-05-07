@@ -1,4 +1,4 @@
-package com.example.heartrate_monitor.ui.theme
+package com.example.template.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
